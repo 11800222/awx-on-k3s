@@ -11,4 +11,4 @@ spec:
     storage: 8Gi
   storageClassName: galaxy-volume
   hostPath:
-    path: /data/galaxy
+    path: /awx/data/galaxy

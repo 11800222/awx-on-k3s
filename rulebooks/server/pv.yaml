@@ -11,4 +11,4 @@ spec:
     storage: 8Gi
   storageClassName: eda-postgres-volume
   hostPath:
-    path: /data/eda/postgres-13
+    path: /awx/data/eda/postgres-13

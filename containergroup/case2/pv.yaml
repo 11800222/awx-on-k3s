@@ -11,4 +11,4 @@ spec:
     storage: 4Gi
   storageClassName: demo-volume
   hostPath:
-    path: /data/demo
+    path: /awx/data/demo

@@ -11,4 +11,4 @@ spec:
     storage: 4Gi
   storageClassName: awx-work-volume
   hostPath:
-    path: /data/work
+    path: /awx/data/work

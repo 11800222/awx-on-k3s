@@ -11,4 +11,4 @@ spec:
     storage: 4Gi
   storageClassName: awx-backup-volume
   hostPath:
-    path: /data/backup
+    path: /awx/data/backup
