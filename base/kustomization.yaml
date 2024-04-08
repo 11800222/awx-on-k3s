@@ -20,13 +20,13 @@ secretGenerator:
       - port=5432
       - database=awx
       - username=awx
-      - password=Ansible123!
+      - password=82933285aa
       - type=managed
 
   - name: awx-admin-password
     type: Opaque
     literals:
-      - password=Ansible123!
+      - password=82933285aa
 
   # If you want to specify SECRET_KEY for your AWX manually, uncomment following lines and change the value.
   # Refer AAC documentation for detail about SECRET_KEY.
