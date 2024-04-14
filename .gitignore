@@ -1,3 +1,9 @@
 debug
 *.crt
 *.key
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
