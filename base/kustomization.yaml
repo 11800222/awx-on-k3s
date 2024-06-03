@@ -20,13 +20,13 @@ secretGenerator:
       - port=5432
       - database=awx
       - username=awx
-      - password=82933285aa
+      - password=Hb9CCbH5aa
       - type=managed
 
   - name: awx-admin-password
     type: Opaque
     literals:
-      - password=82933285aa
+      - password=Hb9CCbH5aa
 
   # If you want to specify SECRET_KEY for your AWX manually, uncomment following lines and change the value.
   # Refer AAC documentation for detail about SECRET_KEY.
